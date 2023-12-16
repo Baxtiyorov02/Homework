@@ -1,11 +1,14 @@
 package Topshiriq2;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Device {
 
     private int DeviceMemory;
-    App[] apps=new App[]{};
+    private App[] apps=new App[]{};
+    private ArrayList<String> appInfo=new ArrayList<>();
+
 
     public Device(int deviceMemory) {
         DeviceMemory = deviceMemory;
@@ -33,6 +36,34 @@ public class Device {
     public  void showInfo(){
         System.out.println(Arrays.toString(apps));
     }
+    public boolean unInstall(String appName){
+        if (isExist(appName)){
+            int index=0;
+            App[] newApps= new App[apps.length-1];
+            for (int i = 0; i <apps.length ; i++) {
+                if (isExist(apps[i].getAppName()))
+                    continue;
+                newApps[index++]=apps[i];
+            }
+            apps=newApps;
+            return true;
+        }
+        else return false;
+    }
+    public  void run(String appName){
+        for (int i = 0; i <apps.length ; i++) {
+            if (appName==apps[i].getAppName()){
+                System.out.println(apps[i].getAppName()+" Ishga tushdi");
+            appInfo.add(apps[i].getAppName());
+            }
+        }
+    }
+    public  void info(){
+        for (int i = 0; i <appInfo.size() ; i++) {
+            System.out.println(appInfo.get(i)+ " hozirgi vaqtda ishlamoqda! ");
+        }
+        System.out.println(appInfo.size());
+    }
 
     public static void main(String[] args) {
         App app=new App("Click",38);
@@ -41,7 +72,8 @@ public class Device {
         System.out.println(device.install(app));
         System.out.println(device.install(app1));
         device.showInfo();
-
+        device.run("Click");
+        device.info();
     }
 
 
