@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc64eea-b477-42ca-aa7f-78e0d5aaf1e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Topshiriq2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Topshiriq2/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Topshiriq2/Device.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topshiriq2/Device.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Lesson8" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Device">
+    <configuration name="Device" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Topshiriq2.Device" />
+      <module name="Lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Topshiriq2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Lesson9" />
@@ -42,6 +54,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Device" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
