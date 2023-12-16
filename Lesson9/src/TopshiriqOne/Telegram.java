@@ -11,12 +11,12 @@ public class Telegram {
     }
 
     public  boolean creatAccaunt(User user){
-        if (!isExcide(user.getPhoneNumber())){
+        if (!isExist(user.getPhoneNumber())){
             checkSMSCode(user);
         }
-        return isExcide(user.getPhoneNumber());
+        return isExist(user.getPhoneNumber());
     }
-    private  boolean isExcide(String  phoneNumber){
+    private  boolean isExist(String  phoneNumber){
         boolean isExcite=false;
         for (User value : users) {
             if (phoneNumber == value.getPhoneNumber())
@@ -46,7 +46,7 @@ public class Telegram {
         return users.length;
     }
     public  boolean deleteAccaunt(String phoneNumber){
-        if (isExcide(phoneNumber)){
+        if (isExist(phoneNumber)){
             User[] newUsers=new User[getUserCount()-1];
             int index=0;
             for (int i = 0; i <getUserCount() ; i++) {
@@ -59,7 +59,7 @@ public class Telegram {
             users=newUsers;
             System.out.println(Arrays.toString(users));
         }
-        return isExcide(phoneNumber);
+        return isExist(phoneNumber);
     }
 
 
