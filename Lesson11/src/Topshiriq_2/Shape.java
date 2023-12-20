@@ -5,25 +5,27 @@ public abstract class Shape {
     private double b;
     private  double c;
 
+    public Shape(double a) {
+        this.a = a;
+    }
 
+    public Shape(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+    public  abstract double getArea();
+    public  abstract double getPerimetr();
 
-    public double yuza(double a){
-        return Math.PI*a*a;
+    public  double getA() {
+        return a;
     }
-    public double yuza(double a, double b){
-        return a+b;
+
+    protected double getB() {
+        return b;
     }
-    public double yuza(double a,double b,double c){
-        double halfPer=(a+b+c)/2;
-        return Math.sqrt(halfPer*(halfPer-a)*(halfPer-b)*(halfPer-c));
-    }
-    public double perimetr(double a){
-        return a*2;
-    }
-    public double perimetr(double a,double b){
-        return 2*(a+b);
-    }
-    public double perinetr(double a, double b, double c){
-        return a+b+c;
+
+    protected double getC() {
+        return c;
     }
 }
