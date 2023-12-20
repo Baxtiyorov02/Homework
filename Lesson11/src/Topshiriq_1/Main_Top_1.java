@@ -1,4 +1,6 @@
-public class Main {
+package Topshiriq_1;
+
+public class Main_Top_1 {
     public static void main(String[] args) {
         A a=new A();
         a.setNumber(15);

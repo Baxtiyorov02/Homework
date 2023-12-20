@@ -1,3 +1,5 @@
+package Topshiriq_1;
+
 public class A {
     private  int number;
 

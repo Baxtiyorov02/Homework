@@ -1,3 +1,5 @@
+package Topshiriq_1;
+
 public class B extends A {
     @Override
     public int getNumber() {
