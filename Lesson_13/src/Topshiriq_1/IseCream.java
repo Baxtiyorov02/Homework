@@ -12,7 +12,7 @@ public class IseCream {
     private  double sugarAmount;
     private  double soldOutSugar;
     private  double soldOutMilk;
-    private int buyCountIceCrea=0;
+    private double buyCountIceCrea=0;
 
     public IseCream(Price price, Resept resept) {
         this.price = price;
