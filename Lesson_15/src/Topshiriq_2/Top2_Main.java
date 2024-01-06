@@ -1,4 +1,4 @@
-package Topshiriq2;
+package Topshiriq_2;
 
 public class Top2_Main {
     public static void main(String[] args) {
