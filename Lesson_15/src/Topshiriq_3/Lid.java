@@ -1,6 +1,6 @@
 package Topshiriq_3;
 
-public class Lid {
+public class Lid extends Bonus{
     private String kode;
 
     public Lid(String kode) {

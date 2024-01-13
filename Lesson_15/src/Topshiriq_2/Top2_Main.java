@@ -2,7 +2,7 @@ package Topshiriq_2;
 
 public class Top2_Main {
     public static void main(String[] args) {
-        Book book=new Book("O`tgan kunlar",20000);
+      /*  Book book=new Book("O`tgan kunlar",20000);
         Book book1=new Book("Mehrobdan chayon",20000);
         Book book2=new Book("Ikki eshik orasi",25000);
         Bookshop bookshop=new Bookshop("Kitoblar olami",2_000_000);
@@ -18,7 +18,13 @@ public class Top2_Main {
         System.out.println(bookshop.getMoney());
         System.out.println(bookshop.getCount(book1));
         System.out.println(bookshop.getCount());
-        System.out.println(bookshop.getBookshopName());
+        System.out.println(bookshop.getBookshopName());*/
+
+        final int age = 0;
+        final String name;
+        System.out.println(age);
+        System.out.println(name);
+        
 
     }
 
