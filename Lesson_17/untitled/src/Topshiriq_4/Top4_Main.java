@@ -12,5 +12,9 @@ public class Top4_Main {
         System.out.println("shape2.getPerimetr() = " + shape2.getPerimetr());
         System.out.println("shape2.getSquare() = " + shape2.getSquare());
 
+
+        Kvadrat kvadrat=new Kvadrat(5);
+        Kvadrat kvadrat1=new Kvadrat(10);
+
     }
 }
