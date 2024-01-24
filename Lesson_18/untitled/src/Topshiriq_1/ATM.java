@@ -26,6 +26,12 @@ public class ATM {
 
     public void addMoneys(List<Money> moneys){
             moneyList.addAll(moneys);
+
+
+
+
+
+
             Collections.sort(moneyList);
             moneyList=moneyList.reversed();
         messageInterface.showMessage("Pul qo`shildi!");

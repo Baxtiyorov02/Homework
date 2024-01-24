@@ -22,7 +22,8 @@ public class Top2_Main {
         LinkedList<String> allPlayers=new LinkedList<>();
        footballPlayers.removeAll(tennisPlayers);
         System.out.println("Faqat football ga boradigan o`quvchilar: "+footballPlayers);
-        System.out.println("Jami o`quvchilar soni: "+(footballPlayers.size()+tennisPlayers.size()));
+        footballPlayers.addAll(tennisPlayers);
+        System.out.println("Jami o`quvchilar soni: "+(footballPlayers.size()));
 
 
 
