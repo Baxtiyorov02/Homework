@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Lesson_20 (SocialNetwork).iml" filepath="$PROJECT_DIR$/Lesson_20 (SocialNetwork).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UzumBaza.iml" filepath="$PROJECT_DIR$/.idea/UzumBaza.iml" />
     </modules>
   </component>
 </project>
