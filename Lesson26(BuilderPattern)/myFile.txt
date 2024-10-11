@@ -1,0 +1,24 @@
+ggegergr
+grggeerh
+erherhh
+erherh
+reghreh
+h
+hre
+hrehre
+hre
+hreh
+
+byte -> 1 bayt
+short -> 2 bayt
+int -> 4 bayt
+long -> 8 bayt
+float -> 4 bayt
+double -> 8 bayt
+
+char -> 2 bayt
+bool -> 1 bit
+
+
+
+erhr

@@ -21,19 +21,10 @@ public class Top1_Main {
         moneyList.add(money2);
         ATM atm=new ATM();
 
-        atm.setMessageInterface(new MessageInterface() {
-            @Override
-            public void showMessage(String message) {
-                System.out.println(message);
-
-            }
-        });
-        atm.setShowMoneyInfoInterface(new ShowMoneyInfoInterface() {
-            @Override
-            public void showMoneyData(int amoun, int count) {
-               // System.out.println("\n");
-                System.out.println(amoun+ " dan " + count +" ta");
-            }
+        atm.setMessageInterface(message -> System.out.println(message));
+        atm.setShowMoneyInfoInterface((amoun, count) -> {
+           System.out.println("\n");
+           System.out.println(amoun+ " dan " + count +" ta");
         });
         atm.addMoneys(moneyList);
         atm.isGetMoney(459000);
